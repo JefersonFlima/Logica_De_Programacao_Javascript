@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="calcula os votos de um municipio">
+    <title>Exerc 8(livro 2007)</title>
+</head>
+
+<body>
+    <script>
+        var eleitores = parseInt(prompt("digite o total de eleitores"));
+        var votosB = parseInt(prompt("digite quantos votos brancos"));
+        var votosV = parseInt(prompt("digite quantos votos validos"));
+        var votosN = eleitores - votosB - votosV;
+        var PorcB = votosB * 100 / eleitores;
+        var PorcV = votosV * 100 / eleitores;
+        var PorcN = votosN * 100 / eleitores;
+        alert("a porcentagem de votos branco é de: " + PorcB + "% com total de votos de: " + votosB);
+        alert("a porcentagem de votos validos é de: " + PorcV + "% com total de votos de: " + votosV);
+        alert("a porcentagem de votos nulos é de: " + PorcN + "% com total de votos de: " + votosN);
+    </script>
+</body>
+
+</html>

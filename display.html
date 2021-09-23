@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+    <script>
+        function aparecer() {
+            document.getElementById('paragrafo').style.display = 'block'
+        }
+
+        function esconder() {
+            document.getElementById('paragrafo').style.display = 'none'
+        }
+    </script>
+</head>
+
+<body>
+    <h2>clique no botao e se surpreenda</h2>
+    <p id="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere ipsum at dolores sunt tempora similique inventore magnam quidem, officiis nulla doloribus cupiditate temporibus laborum! Fugit facere inventore modi in!</p>
+    <button type="button" onclick="esconder()">surpreenda-se</button>
+    <button type="button" onclick="aparecer()">retornar</button>
+
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="calcula o salario do funcionario apos todas comissões por venda dos carro">
+    <title>Exerc 11(livro 2007)</title>
+</head>
+
+<body>
+    <script>
+        var salarioFixo = parseFloat(prompt("digite o salario do funcionario"));
+        var carrosVendidos = parseInt(prompt("digite a quantidade de carros vendidas"));
+        var ValorPCarro = parseFloat(prompt("digite o ganho com a venda de cada carro"));
+        var ganhoTotal = parseFloat(prompt("digite o ganho total com a venda dos carros"));
+        var salarioFinal = salarioFixo + ValorPCarro * carrosVendidos + 5 * ganhoTotal / 100;
+        alert("O salário final do vendedor equivale a: " + salarioFinal + "R$");
+    </script>
+</body>
+
+</html>
