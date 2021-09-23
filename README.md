@@ -1,1 +1,1 @@
-# Logica_De_Programacao_Javascript
+# Anexo das atividades e projetos desenvolvidos de Javascript.
